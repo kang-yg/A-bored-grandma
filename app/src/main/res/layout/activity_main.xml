@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/MainrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="160sp">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="@string/youTube_recommend"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/youTube_commend"
+        android:layout_width="match_parent"
+        android:layout_height="200sp">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myLocationInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/goHomeByFOOT"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/goHomeByFOOT"/>
+        <Button
+            android:id="@+id/goHomeByPublic"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/goHomeByPublic"/>
+        <Button
+            android:id="@+id/goHomeByCar"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/goHomeByCar"/>
+    </LinearLayout>
+
+</LinearLayout>

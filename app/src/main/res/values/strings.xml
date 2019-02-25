@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">A bored\nGrandma</string>
+    <string name="developer">made by 영규</string>
+    <string name="youTube_recommend">&lt;유튜브 추천 검색어&gt;</string>
+    <string name="goHomeByFOOT">걸어서 집으로</string>
+    <string name="goHomeByPublic">대중교통 집으로</string>
+    <string name="goHomeByCar">자동차 집으로</string>
+
+    <string name="youTube">유튜브</string>
+    <string name="kakaoTalk">카카오톡</string>
+
+    <string name="twice">트와이스</string>
+    <string name="superman_is_comeback">슈퍼맨이 돌아왔다</string>
+    <string name="find_family">가족의 발견</string>
+    <string name="cultwoshow">컬투쇼</string>
+    <string name="deliciousguys">맛있는 녀석들</string>
+</resources>
